@@ -1,0 +1,67 @@
+ 3  git init
+    4  git status
+    5  git -A add
+    6  git add -A
+    7  git status
+    8  git commit -m "Initial Version"
+    9  git config --global user name Ketan
+   10  git config --global username Ketan
+   11  git config --global Ketan
+   12  git config --global user.name Ketan
+   13  git config --global user.email ketanextc@gmail.com
+   14  git commit -m "Initial Version"
+   15  git status
+   16  git log
+   17  git log --stat
+   18  git log --pretty=oneline
+   19  git log --pretty=format:"%h -%an; %ar; %s"
+   20  git log --pretty=format:"%h"
+   21  git log --pretty=format:"%h %H"
+   22  git log --pretty=format:"%T"
+   23  git log --pretty=format:"%t"
+   24  git log --pretty=format:"%p"
+   25  git log --pretty=format:"%P"
+   26  git log --pretty=format:"%an"
+   27  git log --pretty=format:"%ae"
+   28  git log --pretty=format:"%ad"
+   29  git log --pretty=format:"%ar"
+   30  git log --pretty=format:"%cn"
+   31  git log --pretty=format:"%ce"
+   32  git log --pretty=format:"%cd"
+   33  git log --pretty=format:"%cr"
+   34  git log --pretty=format:"%s"
+   35  git log --grep"Initial"
+   36  git log --grep 'Initial'
+   37  git kkb add origin https://github.com/ketanextc/Demo.git
+   38  git remote add kkb https://github.com/ketanextc/Demo.git
+   39  git push -u kkb master
+   43  git clone https://github.com/ketanextc/Demo.git
+   44  git branch
+   48  git status
+   49  git branch ketan
+   50  git checkout -b [ketan]
+   51  git checkout -b ketan
+   52  git checkout ketan
+   53  git status
+   54  git add -A
+   55  git log
+   56  git commit -m "Second Version"
+   57  git diff
+   58  git push - u kkb ketan
+   59  git push - u kkb master
+   60  git remote add ket https://github.com/ketanextc/Demo.git
+   61  git push - u kkb ketan
+   62  git push - u ket ketan
+   63  git push - u ket master
+   64  git push -u ket ketan
+   65  git checkout master
+   66  git merge ketan
+   67  git diff
+   68  git reflog
+   69  history | grep "git "
+   70  git rebase master
+   71  git log --grep 'Inital'
+   72  git log --grep 'Initial'
+   82  git archive -o ASDM.zip Head
+   83  history | grep "git "
+
